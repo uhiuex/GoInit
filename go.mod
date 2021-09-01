@@ -1,4 +1,4 @@
-module github.com/uhiuex/hello
+module github.com/uhiuex/goinit
 
 go 1.16
 

@@ -6,7 +6,7 @@ import (
 
 )
 
-func access(w http.ResponseWriter, r *http.Request){
+func Loginhandler(w http.ResponseWriter, r *http.Request){
 	w.Header().Set("Content-Type", "text/html")
 		fmt.Fprint(w, "Hey Login Works!")
 }
